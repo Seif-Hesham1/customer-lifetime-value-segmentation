@@ -2,7 +2,7 @@
 
 > Group online-retail customers by behaviour (K-Means on RFM) and predict how much each will spend in the next 90 days — so marketing knows who to reward, who to win back and where to spend its budget.
 
-**🔗 Live app:** `[add your Streamlit Cloud link here]`
+**🔗 Live app:** https://clv-segmentation-engine.streamlit.app  ·  **Code:** https://github.com/Seif-Hesham1/customer-lifetime-value-segmentation
 
 | Dashboard | Customer lookup |
 |---|---|
