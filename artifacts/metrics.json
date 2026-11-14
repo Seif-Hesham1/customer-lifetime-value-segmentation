@@ -1,0 +1,51 @@
+{
+  "part_a": "Gradient Boosting",
+  "part_b": "Ridge",
+  "smear": 1.62,
+  "cutoff": "2011-09-11",
+  "n_customers": 5256,
+  "n_train": 4204,
+  "n_test": 1052,
+  "test": {
+    "Baseline (mean \u00a3)": {
+      "MAE \u00a3": 741.68,
+      "RMSE \u00a3": 1992.684,
+      "R\u00b2 (\u00a3)": -0.001,
+      "Spearman": NaN,
+      "top-20% revenue capture": 0.219,
+      "\u03a3 pred / \u03a3 actual": 1.095
+    },
+    "Baseline (median = \u00a30)": {
+      "MAE \u00a3": 528.908,
+      "RMSE \u00a3": 2061.072,
+      "R\u00b2 (\u00a3)": -0.07,
+      "Spearman": NaN,
+      "top-20% revenue capture": 0.219,
+      "\u03a3 pred / \u03a3 actual": 0.0
+    },
+    "Single GB on log-spend": {
+      "MAE \u00a3": 385.081,
+      "RMSE \u00a3": 1371.195,
+      "R\u00b2 (\u00a3)": 0.526,
+      "Spearman": 0.605,
+      "top-20% revenue capture": 0.746,
+      "\u03a3 pred / \u03a3 actual": 0.443
+    },
+    "Two-part (Gradient Boosting \u00d7 Ridge)": {
+      "MAE \u00a3": 443.749,
+      "RMSE \u00a3": 1388.124,
+      "R\u00b2 (\u00a3)": 0.514,
+      "Spearman": 0.578,
+      "top-20% revenue capture": 0.754,
+      "\u03a3 pred / \u03a3 actual": 1.2
+    }
+  },
+  "test_roc_auc_buy": 0.818,
+  "top20_revenue_capture": 0.754,
+  "k": 4,
+  "silhouette_kmeans": 0.384,
+  "rows_raw": 1067371,
+  "rows_clean": 776577,
+  "buy_again_rate": 0.436,
+  "top20_hist_share": 0.766
+}

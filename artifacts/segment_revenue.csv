@@ -1,0 +1,5 @@
+segment,customers,predicted_90d_revenue,actual_90d_revenue,recommended action
+Champions,908,1920776.0,1874186.0,"Reward & retain: VIP early access, loyalty perks, no discounts needed."
+Promising,677,265369.0,257173.0,Nurture: second-purchase incentive and product recommendations while they are still engaged.
+At Risk,1582,660616.0,519103.0,Win back: personalised reminder + time-limited offer — they have real past value but went quiet.
+Lost / Inactive,2089,224452.0,340365.0,Low-cost reactivation only (email); do not spend heavy budget.

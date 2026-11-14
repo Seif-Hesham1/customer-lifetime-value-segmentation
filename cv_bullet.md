@@ -1,0 +1,1 @@
+Built a customer segmentation and 90-day lifetime-value engine on ~1.07M retail transactions (5,256 customers) combining K-Means and a two-part gradient-boosting/ridge model (ROC-AUC 0.82 for repeat purchase; top-20% of customers capture 75% of next-90-day revenue), deployed as a Streamlit marketing dashboard. Tools: Python, pandas, scikit-learn, Streamlit.
